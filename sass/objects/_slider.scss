@@ -1,0 +1,49 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_slider.scss - Non-cosmetic styles for slider
+ *
+ * coded by leny@flatLand!
+ * started at 16/02/2016
+ */
+
+.slider {
+  height: 50em;
+  position: relative;
+  z-index: -1;
+}
+
+.slides{
+  text-align: center;
+  &__slide__title{
+    width: 34.5rem;
+    display: block;
+    margin: 0 auto;
+  }
+  &__slide__subtitle{
+    display: inline-block;
+    width: 47rem;
+  }
+}
+
+.nav__slide-button{
+  display: inline-block;
+}
+
+.nav__slide-button:before,
+.nav__slide-button:before{
+  line-height: 5.5rem;
+  height: 5.5rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.nav__slide-next:before{
+  position: absolute;
+  top: 40%;
+  right: 0%;
+}
+
+.nav__slide-previous:before{
+  position: absolute;
+  top: 40%;
+}

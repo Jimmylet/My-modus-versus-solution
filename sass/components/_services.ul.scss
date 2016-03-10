@@ -1,0 +1,81 @@
+/** 
+ * nav
+ * Créé par : Jimmy Letecheur 
+ * Date : 29/02/16
+*/
+
+.services__list{
+  background-color: $backgroundLi;
+  padding: 0 2.5rem;
+  vertical-align: top;
+  border-bottom: 4px solid $borderColorLi;
+  border-radius: 5px;
+  &__link{
+    text-decoration: none;
+    &__title{
+      font-weight: bold;
+      color: $headingTextColor;
+      font-size: 1.6em;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 1rem;
+      &:before{
+        font-family: $glyphs;
+        font-size: 6rem;
+        content: "\f087";
+        display: block;
+        color: $backgroundGreenLi;
+        margin-top: 5.3rem;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}
+
+
+.services ul li:nth-child(2) a h3:before{
+  content: "\f084";
+
+}.services ul li:nth-child(3) a h3:before{
+  content: "\f024";
+ }
+
+.services ul li:nth-child(4) a h3:before{
+  content: "\f0c3";
+}
+
+.services ul li a p{
+  margin-top: 3.5rem;
+  text-align: center;
+  color: $laborTextColor;
+  line-height: 1.5rem;
+}
+
+.services__list__link__fake-button{
+  color: $menuTextColor;
+  background-color: $backgroundGreenLi;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.4em;
+  border-radius: 5px;
+  border-bottom: 4px solid $backgroundDarkGreenLi;
+  padding: 1.8rem 0;
+  position: absolute;
+  bottom: -2.7rem;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.services__list:hover .services__list__link__title:before{
+  color: $focusColor;
+}
+
+.services__list:hover .services__list__link__fake-button{
+  background-color: $focusColor;
+  border-color: $darkFocusColor;
+}
+
+

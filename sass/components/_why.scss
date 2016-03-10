@@ -1,0 +1,19 @@
+/** 
+ * why
+ * Créé par : Jimmy Letecheur 
+ * Date : 2/03/16
+*/
+
+.why{
+  background: $focusBackgroundColor url( "#{ $imgPath }why-bcg-pattern.png" ) top left repeat-x;
+  &__title__strong{
+    color: $titleWhyColor;
+    font-weight: 600;
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+  &__title__span{
+    font-size: 1.3em;
+    color: $laborTextColor;
+  }
+}

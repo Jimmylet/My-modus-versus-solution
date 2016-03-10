@@ -1,0 +1,119 @@
+/** 
+ * footer
+ * Créé par : Jimmy Letecheur 
+ * Date : 4/03/16
+*/
+
+
+
+
+footer aside section{
+  display: inline-block;
+}
+
+.primary{
+  width: 117rem;
+  margin: 0 auto;
+}
+
+.primary,
+.primary__cols{
+  height: 300px;
+}
+
+.primary__cols__contact-infos{
+  max-width: 37rem;
+  margin-right: 8rem;
+  & h3{
+    display: none;
+  }
+  & p{
+    margin-top: 5.4rem;
+    margin-bottom: 3.5rem;
+  }
+  & dl{
+    margin-bottom: 6rem;
+  }
+  & dt{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    display: inline-block;
+  }
+  & dd{
+    display: inline-block;
+  }
+}
+
+.primary__cols{
+  position: relative;
+  bottom: 2.8rem;
+}
+
+.primary__cols__sitemap,
+.primary__cols__community,
+.primary__cols__blog-articles{
+  vertical-align: top;
+  margin-right: 8rem;
+}
+
+.primary__cols__blog-articles{
+  margin-right: 0;
+}
+
+.primary__cols__blog-articles{
+  & li a{
+    height: 7rem;
+    margin-bottom: 2rem;
+    display: block;
+    & li a:before{
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+  & img{
+    border-radius: 4px;
+    float: left;
+    margin-right: 2rem;
+  }
+  & strong{
+    vertical-align: top;
+  }
+  & time{
+    vertical-align: top;
+    display: block;
+  }
+}
+
+.secondary{
+  height: 5.2rem;
+}
+
+
+
+.secondary__contener{
+  max-width: 117rem;
+  margin: 0 auto;
+  &:before{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.secondary__legals{
+  display: inline-block;
+  position: relative;
+  top: 1.6rem;
+}
+
+.secondary__socials{
+  ul{
+    float: right;
+    position: relative;
+    top: -.35rem;
+    & li{
+      margin-left: 2rem;
+    }
+  }
+}

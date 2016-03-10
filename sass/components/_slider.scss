@@ -1,0 +1,55 @@
+/** 
+ * slider.scss
+ * Créé par : Jimmy Letecheur 
+ * Date : 29/02/16
+*/
+
+.slider{
+  background-color: #7f8c8c;
+}
+
+.slides{
+  &__slide{
+    padding-top: 16em;
+    &__title{
+      font-family: $openSansStack;
+      font-weight: bold;
+      color: $mainBackgroundColor;
+      font-size: 5em;
+      background-color: $darkFocusColor;
+      border-radius: 6px;
+    }
+    &__subtitle{
+      background-color: #3f4646;
+      font-size: 1.6em;
+      color: white;
+      line-height: 2.4rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+      padding: 14px 38px;
+    }
+  }
+}
+
+.nav__slide-button{
+  font-size: 0;
+  &:before{
+    display: inline-block;
+    font-family: $glyphs;
+    color: white;
+    font-size: 4rem;
+    border-bottom: 3px solid $darkFocusColor;
+  }
+}
+
+.nav__slide-next:before{
+  content: "\f101";
+  background-color: $focusColor;
+  border-radius: 5px 0 0 5px;
+}
+
+.nav__slide-previous:before{
+  content: "\f100";
+  background-color: $focusColor;
+  border-radius: 0 5px 5px 0;
+}

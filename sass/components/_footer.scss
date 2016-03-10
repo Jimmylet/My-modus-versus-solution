@@ -1,0 +1,129 @@
+/** 
+ * footer
+ * Créé par : Jimmy Letecheur 
+ * Date : 4/03/16
+*/
+
+footer{
+  background: $lightMainColor url( "#{ $imgPath }footer-bcg-pattern.png" ) top left repeat-x;
+  color: white;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+footer h2{
+  font-size: 0;
+  display: inline-block;
+}
+
+footer aside{
+  padding-top: 4.8rem;
+}
+footer h2:before{
+  content: "";
+  display: inline-block;
+  width: 35rem;
+  height: 2.2rem;
+  background: transparent url("../assets/img/logo.svg") no-repeat scroll left center;
+}
+
+.primary__cols__contact-infos dd a{
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.primary__cols__sitemap h3,
+.primary__cols__community h3,
+.primary__cols__blog-articles h3{
+    font-weight: bold;
+    font-size: 2rem;
+    color: $colorFontsFooter;
+    min-width: 17rem;
+    margin-bottom: 3.5rem;
+}
+
+.primary__cols__blog-articles h3{
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  & a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+.primary__cols__sitemap,
+.primary__cols__community{
+  & li{
+    margin-bottom: 1.4rem;
+    line-height: 1.5rem;
+    & a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+  & a:before{
+      content: ">";
+      font-family: $openSansStack;
+      color: white;
+      font-size: 1.4rem;
+      margin-right: .9rem;
+    }
+  }
+}
+
+.primary__cols__blog-articles{
+  & a{
+    text-decoration: none;
+  }
+  & img{
+    border-radius: 4px;
+  }
+  & strong{
+
+    color: white;
+  }
+  & time{
+    color: $colorFontsFooter;
+  }
+}
+
+.secondary{
+  background-color: $backgroundDarkGreenLi;
+}
+
+.secondary__legals a{
+  color: white;
+  text-decoration: none;
+}
+
+.secondary__socials{
+  & li{
+    display: inline-block;
+  }
+  & li a{
+    text-decoration: none;
+    font-size: 0;
+  }& li a:before{
+     font-family: $glyphs;
+     color: white;
+     font-size: 2.6rem;
+   }
+  &__social-facebook:before{
+    content: '\f09a';
+  }
+  &__social-twitter:before{
+    content: '\f099';
+  }
+  &__social-googleplus:before{
+    content: '\f0d5';
+  }
+  &__rss-feed:before{
+    content: '\f09e';
+  }
+}

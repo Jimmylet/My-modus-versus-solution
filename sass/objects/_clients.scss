@@ -1,0 +1,54 @@
+/** 
+ * ${FILE_NAME}
+ * Créé par : Jimmy Letecheur 
+ * Date : 3/03/16
+*/
+
+.clients{
+  max-width: 117rem;
+  margin: 0 auto;
+  padding-bottom: 5.8rem;
+}
+
+.clients h3{
+  margin-top: 5.5rem;
+}
+
+.clients ul{
+  font-size: 0;
+  margin-top: 5.8rem;
+}
+
+.clients ul li{
+  display: inline-block;
+  margin-right: 3rem;
+}
+
+.clients ul li:nth-child(6){
+  margin-right: 0;
+}
+
+.clients h3:after{
+  margin-left: 2.5rem;
+  height: 1px;
+  display: inline-block;
+  width: 89rem;
+  position: relative;
+  bottom: .4rem;
+}
+
+.clients__nav{
+  float: right;
+  position: relative;
+  bottom: 2.6rem;
+}
+
+.clients__nav__previous{
+  margin-right: 2rem;
+}
+
+.clients__nav__previous:after,
+.clients__nav__next:after{
+  display: inline-block;
+  width: 4rem;
+}

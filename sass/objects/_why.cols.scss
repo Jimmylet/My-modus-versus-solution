@@ -1,0 +1,39 @@
+/** 
+ * why cols
+ * Créé par : Jimmy Letecheur 
+ * Date : 3/03/16
+*/
+
+.why__cols{
+  max-width: 117em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why__cols__col{
+  max-width: 30rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.why__cols__col__title{
+  margin-bottom: 3.5rem;
+}
+
+.why__cols__col:nth-child(1){
+  float: left;
+}
+
+.why__cols__col:nth-child(3){
+  float: right;
+}
+
+.why__cols__col:nth-child(3) blockquote p{
+  margin-bottom: .8rem;
+}
+
+.why__cols:after{
+  content: "";
+  display: block;
+  clear: both;
+}

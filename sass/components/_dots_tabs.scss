@@ -1,0 +1,22 @@
+/** 
+ * dots_tabs
+ * Créé par : Jimmy Letecheur 
+ * Date : 1/03/16
+*/
+
+.dots{
+  text-align: center;
+}
+
+.dots a{
+  text-align: center;
+  font-size: 0;
+}
+
+.dots a:before{
+  background-color: $tabsColorDefault;
+}
+
+.dots .dots__tabs--active:before{
+  background-color: $darkFocusColor;
+}

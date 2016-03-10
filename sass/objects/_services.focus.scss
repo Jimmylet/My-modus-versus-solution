@@ -1,0 +1,19 @@
+/** 
+ * $focus
+ * Créé par : Jimmy Letecheur 
+ * Date : 1/03/16
+*/
+
+.services__focus__link{
+  width: 20rem;
+  display: inline-block;
+  float: right;
+}
+
+.services__focus:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+

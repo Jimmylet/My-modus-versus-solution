@@ -1,0 +1,24 @@
+/** 
+ * nav
+ * Créé par : Jimmy Letecheur 
+ * Date : 29/02/16
+*/
+
+
+.services li{
+  width: 27em;
+  height: 31.4em;
+  display: inline-block;
+  margin-top: 5em;
+  margin-bottom: 6.7em;
+  margin-left: 3em;
+  position: relative;
+}
+
+.services li:first-child{
+  margin-left: 0;
+}
+
+.services__list__link__fake-button{
+  width: 20rem;
+}

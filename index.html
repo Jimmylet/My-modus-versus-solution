@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>MODUS Versus</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="topbar">
+                    <h1 class="logo" role="heading" aria-level="1">
+                        <a class="logo__link" href="#">MODUS Versus</a>
+                    </h1>
+                    <nav class="main-nav">
+                        <h2 class="main-nav__heading hidden" role="heading" aria-level="2">
+                            Main navigation menu
+                        </h2>
+                        <ul class="main-nav__list">
+                            <li class="main-nav__elt">
+                                <a class="main-nav__link main-nav__link--is-active" href="#">Home</a>
+                            </li>
+                            <li class="main-nav__elt">
+                                <a class="main-nav__link" href="#">About</a>
+                            </li>
+                            <li class="main-nav__elt">
+                                <a class="main-nav__link" href="#">Services</a>
+                            </li>
+                            <li class="main-nav__elt main-nav__elt--has-dropdown">
+                                <a class="main-nav__link main-nav__link--is-dropdown-head" href="#">Portfolio</a>
+                                <ul class="main-nav__list main-nav__list--is-dropdown">
+                                    <li class="main-nav__elt main-nav__elt--is-sub-elt">
+                                        <a class="main-nav__link main-nav__link--is-sub-link" href="#">Portfolio sub page 1</a>
+                                    </li>
+                                    <li class="main-nav__elt main-nav__elt--is-sub-elt">
+                                        <a class="main-nav__link main-nav__link--is-sub-link" href="#">Portfolio sub page 2</a>
+                                    </li>
+                                    <li class="main-nav__elt main-nav__elt--is-sub-elt">
+                                        <a class="main-nav__link main-nav__link--is-sub-link" href="#">Portfolio sub page 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-nav__elt">
+                                <a class="main-nav__link" href="#">Blog</a>
+                            </li>
+                            <li class="main-nav__elt main-nav__elt--has-dropdown">
+                                <a class="main-nav__link main-nav__link--is-dropdown-head" href="#">Features</a>
+                                <ul class="main-nav__list main-nav__list--is-dropdown">
+                                    <li class="main-nav__elt main-nav__elt--is-sub-elt">
+                                        <a class="main-nav__link main-nav__link--is-sub-link" href="#">Features sub page 1</a>
+                                    </li>
+                                    <li class="main-nav__elt main-nav__elt--is-sub-elt">
+                                        <a class="main-nav__link main-nav__link--is-sub-link" href="#">Features sub page 2</a>
+                                    </li>
+                                    <li class="main-nav__elt main-nav__elt--is-sub-elt">
+                                        <a class="main-nav__link main-nav__link--is-sub-link" href="#">Features sub page 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="main-nav__elt">
+                                <a class="main-nav__link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="search-form" role="search" action="#" method="get">
+                            <fieldset>
+                                <legend class="search-form__legend hidden">Search inside the site</legend>
+                                <span class="search-form__toggle">show the search form</span>
+                                <div class="search-form__form-elt">
+                                    <label class="search-form__label hidden" for="search-query">Search term:</label>
+                                    <input class="search-form__input" type="search" name="q" placeholder="keywords, term…" />
+                                    <button class="search-form__button" type="submit">search</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </nav>
+                </div>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slides__slide slides__slide--active" id="slider-one">
+                            <strong class="slides__slide__title">Vestibulum</strong>
+                            <span class="slides__slide__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur quisquam pariatur.</span>
+                        </div>
+                        <!--<div class="slide" id="slider-two">
+                            <strong>Vestibulum</strong>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur quisquam pariatur.</span>
+                        </div>
+                        <div class="slide" id="slider-three">
+                            <strong>Vestibulum</strong>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur quisquam pariatur.</span>
+                        </div>-->
+                    </div>
+                    <div class="nav">
+                        <a href="#" class="nav__slide-button nav__slide-previous">previous slide</a>
+                        <a href="#" class="nav__slide-button nav__slide-next">next slide</a>
+                        <div class="dots">
+                            <a href="#" class="dots__tabs-1" data-slide-ref="slide-one">slide one</a>
+                            <a href="#" class="dots__tabs-2 dots__tabs--active" data-slide-ref="slide-two">slide two</a>
+                            <a href="#" class="dots__tabs-3" data-slide-ref="slide-three">slide three</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="services">
+                    <div class="services__focus">
+                        <h2 class="services__focus__title" role="heading" aria-level="2">
+                            Some of our top services
+                        </h2>
+                        <p class="services__focus__description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <a class="services__focus__link" href="#" class="callout">view more</a>
+                    </div>
+                    <ul class="services__block">
+                        <li class="services__list">
+                            <a href="#" class="services__list__link">
+                                <h3 class="services__list__link__title icon-thumb" role="heading" aria-level="3">
+                                    Suspendisse
+                                </h3>
+                                <p class="services__list__link__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores, consequuntur culpa distinctio dolore earum id illo ipsum iste itaque natus, nihil quae qui tempore vero. Blanditiis ipsum laudantium maiores!
+                                </p>
+                                <span class="services__list__link__fake-button">
+                                    read more
+                                </span>
+                            </a>
+                        </li><!--
+                     --><li class="services__list">
+                            <a class="services__list__link" href="#">
+                                <h3 role="heading" aria-level="3" class="services__list__link__title icon-key">
+                                    Maecenas
+                                </h3>
+                                <p class="services__list__link__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam architecto atque commodi doloribus ducimus ea eius esse est et iste iure laboriosam laborum nihil officia, quibusdam repudiandae sapiente voluptate.
+                                </p>
+                                <span class="services__list__link__fake-button">
+                                    read more
+                                </span>
+                            </a>
+                        </li><!--
+                     --><li class="services__list">
+                            <a class="services__list__link" href="#">
+                                <h3 role="heading" aria-level="3" class="services__list__link__title icon-flag">
+                                    Aliquam
+                                </h3>
+                                <p class="services__list__link__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis labore nam ut veniam? Ad adipisci dicta ea, eos explicabo iure libero magnam nesciunt optio, porro recusandae rem sit soluta. Voluptatum!
+                                </p>
+                                <span class="services__list__link__fake-button">
+                                    read more
+                                </span>
+                            </a><!--
+                     --></li><!--
+                     --><li class="services__list">
+                            <a class="services__list__link" href="#">
+                                <h3 role="heading" aria-level="3" class="services__list__link__title icon-flask">
+                                    Habitass
+                                </h3>
+                                <p class="services__list__link__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur eius incidunt laborum sint vero voluptatum. Aliquam assumenda corporis doloribus eveniet in iste minima mollitia possimus repellat sapiente, totam veritatis.
+                                </p>
+                                <span class="services__list__link__fake-button">
+                                    read more
+                                </span>
+                            </a><!--
+                     --></li>
+                    </ul>
+                </section>
+                <section class="why">
+                    <h2 class="why__title" role="heading" aria-level="2">
+                        <strong class="why__title__strong">Why Modus Versus?</strong>
+                        <span class="why__title__span">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                    </h2>
+                    <figure class="why__img">
+                        <img src="./assets/img/why-img.png  " alt="The Modus Versus happy team." />
+                    </figure>
+                    <div class="why__cols">
+                        <section class="why__cols__col">
+                            <h3 class="why__cols__col__title" role="heading" aria-level="3">
+                                Why choose us?
+                            </h3>
+                            <p class="why__cols__col__description">
+                                Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisicing elit. Quidem voluptatum <em>blanditiis</em>, ex iste quas excepturi quae perspiciatis rem voluptates nesciunt totam, quos illum cum sunt, <a href="#">magnam magni</a> reprehenderit esse ut.
+                            </p>
+                        </section>
+                        <section class="why__cols__col">
+                            <h3 class="why__cols__col__title" role="heading" aria-level="3">
+                                Where to find us?
+                            </h3>
+                            <address class="why__cols__col__address">
+                                Rue Petermans, 88<br />
+                                4000 Liège
+                            </address>
+                        </section>
+                        <section class="why__cols__col">
+                            <h3 class="why__cols__col__title" role="heading" aria-level="3">
+                                What clients' say?
+                            </h3>
+                            <blockquote class="why__cols__col__blockquote" cite="#">
+                                <p class="why__cols__col__blockquote__quote">
+                                    lorem impsum dolor sit amet !lorem impsum dolor sit amet !lorem impsum dolor sit amet !
+                                </p>
+                                <cite class="why__cols__col__blockquote__author">Client's name</cite>
+                            </blockquote>
+                        </section>
+                    </div>
+                    <section class="clients">
+                        <h3 class="clients__title" heading" aria-level="3">
+                            Our happy client
+                        </h3>
+                        <div class="clients__nav">
+                            <a class="clients__nav__link" href="#" class="clients__nav__previous">previous</a>
+                            <a class="clients__nav__link" href="#" class="clients__nav__next">next</a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#" rel="external">
+                                    <img src="http://placekitten.com/170/90" alt="client name" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" rel="external">
+                                    <img src="http://placekitten.com/170/90" alt="client name" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" rel="external">
+                                    <img src="http://placekitten.com/170/90" alt="client name" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" rel="external">
+                                    <img src="http://placekitten.com/170/90" alt="client name" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" rel="external">
+                                    <img src="http://placekitten.com/170/90" alt="client name" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" rel="external">
+                                    <img src="http://placekitten.com/170/90" alt="client name" />
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </main>
+            <footer itemscope itemtype="http://schema.org/Organization">
+                <aside>
+                    <div class="primary">
+                        <h2 class="primary__title" heading" aria-level="2">
+                            About MODUS Versus
+                        </h2>
+                        <div class="primary__cols">
+                            <section class="primary__cols__col primary__cols__contact-infos">
+                                <h3 role="heading" aria-level="3">
+                                    <a href="#"><span>Contact </span><span itemprop="name">MODUS Versus</span></a>
+                                </h3>
+                                <p itemprop="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nostrum, perferendis doloremque consectetur suscipit est sequi blanditiis amet dolorem provident.
+                                </p>
+                                <dl class="primary__cols__col__contact">
+                                    <dt>Phone&nbsp;:</dt>
+                                    <dd>
+                                        <a href="tel:0033498090909" itemprop="telephone">123 456 789</a>
+                                    </dd>
+                                    <br>
+                                    <dt>e-mail&nbsp;:</dt>
+                                    <dd>
+                                        <a href="mailto:info@modusversus.com" itemprop="email">info@modusversus.com</a>
+                                    </dd>
+                                </dl>
+                            </section>
+                            <section class="primary__cols__col primary__cols__sitemap">
+                                <h3 class="primary__cols__sitemap__title" heading" aria-level="3">
+                                    Company
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Testimonials</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="primary__cols__col primary__cols__community">
+                                <h3 role="heading" aria-level="3">
+                                    Community
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Forum</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Newsletter</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="primary__cols__col primary__cols__blog-articles">
+                                <h3 role="heading" aria-level="3">
+                                    from the <a href="#">blog</a>
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://placehold.it/70x70" alt="blog post image" />
+                                            <strong>Blog article title</strong>
+                                            <time datetime="#">23 may 2015</time>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="http://placehold.it/70x70" alt="blog post image" />
+                                            <strong>Blog article title</strong>
+                                            <time datetime="#">23 may 2015</time>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="secondary">
+                        <div class="secondary__contener">
+                            <div class="secondary__legals">
+                                <a href="#">©2015 ModusVersus</a>
+                            </div>
+                            <div class="secondary__socials">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="secondary__socials__social-facebook">follow us on facebook</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="secondary__socials__social-twitter">follow us on Twitter</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="secondary__socials__social-googleplus">follow us on google plus</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="secondary__socials__rss-feed">follow our rss feed</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </footer>
+        </div>
+
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+/** 
+ * ${FILE_NAME}
+ * Créé par : Jimmy Letecheur 
+ * Date : 3/03/16
+*/
+
+.clients h3{
+  font-weight: bold;
+  font-size: 1.6em;
+  color: $laborTextColor;
+}
+
+.clients h3:after{
+  content: "";
+  background-color: $lineClientsColor;
+}
+
+
+.clients__nav__previous,
+.clients__nav__next{
+  font-size: 0;
+}
+
+.clients__nav__previous:after,
+.clients__nav__next:after{
+  content: "\f053";
+  color: white;
+  font-family: $glyphs;
+  font-size: 2rem;
+  text-align: center;
+  padding: .8rem 0 .8rem;
+  background-color: $focusColor;
+  border-bottom: 3px solid $darkFocusColor;
+  border-radius: 4px;
+}
+
+.clients__nav__next:after{
+  content: "\f054";
+}

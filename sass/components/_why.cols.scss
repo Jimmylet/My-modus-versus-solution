@@ -1,0 +1,29 @@
+/** 
+ * ${FILE_NAME}
+ * Créé par : Jimmy Letecheur 
+ * Date : 3/03/16
+*/
+
+.why__cols__col{}
+
+.why__cols__col__title{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.why__cols__col{
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  color: $laborTextColor;
+}
+
+.why__cols__col:nth-child(3) blockquote p{
+  background-color: white;
+  padding: .8rem;
+  font-style: italic;
+}
+
+.why__cols__col:nth-child(3) blockquote cite{
+  font-weight: bold;
+}
+
